@@ -1,0 +1,38 @@
+#converter {
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#converter-header {
+    padding: 15px 15px;
+    background-color: blue;
+    color: white;
+}
+
+#converter-body {
+    padding: 15px 15px;
+    background-color: rgb(221, 221, 221);
+    color: white;
+}
+
+.type-copy {
+    font-size: 12px;
+}
+
+#value {
+    padding: 3px;
+    border: 1px solid white;
+    max-width: 30px;
+    margin: auto;
+    margin-bottom: 15px;
+
+}
+
+.type-box {
+    background-color: rgb(159, 159, 159);
+    padding: 2px 2px;
+    margin: 3px 3px;
+}
