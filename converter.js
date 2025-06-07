@@ -19,12 +19,14 @@ button.addEventListener("click", function() {
     liters = (litersCalc())
     gallons = (gallonsCalc())
     kilos = (kilosCalc())
-    gallons = (gallonsCalc())
-    lengthText.innerHTML = `${value} meters = ${feet} feet I ${value} feet = ${meters} meters`
-    volumeText.innerHTML = `${value} liters = ${gallons} gallons I ${value} gallons = ${liters} liters`
-    massText.innerHTML = `${value} kilos = ${pounds} pounds I ${value} pounds = ${kilos} kilos`
+    pounds = (poundsCalc())
+    lengthText.innerHTML = `${value} meters = ${feet} feet | ${value} feet = ${meters} meters`
+    volumeText.innerHTML = `${value} liters = ${gallons} gallons | ${value} gallons = ${liters} liters`
+    massText.innerHTML = `${value} kilos = ${pounds} pounds | ${value} pounds = ${kilos} kilos`
 })
 
+
+//1 liter = 0.26 gallons | 1 gallon = 3.79 liters
 function feetCalc () {
     value = input.value;
     feet = value * 3.281
@@ -51,12 +53,12 @@ function gallonsCalc () {
 
 function kilosCalc () {
     value = input.value;
-    kilos = value / 2.204
+    kilos = value * 2.204
     return kilos.toFixed(2)
 }
 
 function poundsCalc () {
     value = input.value;
-    pounds = value * 2.204
+    pounds = value / 2.204
     return pounds.toFixed(2)
 }
