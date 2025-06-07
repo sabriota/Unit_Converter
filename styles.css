@@ -5,17 +5,18 @@
     text-align: center;
     border: 2px solid black;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
 }
 #converter-header {
     padding: 15px 15px;
-    background-color: blue;
+    background-color: #6943FF;
     color: white;
 }
 
 #converter-body {
     padding: 15px 15px;
-    background-color: rgb(221, 221, 221);
-    color: white;
+    background-color: #F4F4F4;
+    color: #5A537B;
 }
 
 .type-copy {
@@ -25,14 +26,27 @@
 #value {
     padding: 3px;
     border: 1px solid white;
-    max-width: 30px;
+    width: 117px;
     margin: auto;
     margin-bottom: 15px;
+    font-size: 58px;
 
 }
 
 .type-box {
-    background-color: rgb(159, 159, 159);
+    background-color: white;
     padding: 2px 2px;
     margin: 3px 3px;
+}
+
+#button {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#title {
+    font-size: 28px;
+    font-weight: 800;
 }

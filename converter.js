@@ -17,7 +17,7 @@ button.addEventListener("click", function() {
     feet = (feetCalc())
     meters = (metersCalc())
     liters = (litersCalc())
-    gallons = (gallonsCalc ())
+    gallons = (gallonsCalc())
     kilos = (kilosCalc())
     gallons = (gallonsCalc())
     lengthText.innerHTML = `${value} meters = ${feet} feet I ${value} feet = ${meters} meters`
